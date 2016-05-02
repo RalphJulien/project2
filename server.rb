@@ -88,7 +88,7 @@ module Socialmedia
       redirect "/topics_list"
     end
 
-    # get "/#{:topic_name}" do
+    # get "/topic_name" do
     #   @topic_name = params[:topic_name]
     #   conn.exec("SELECT text FROM posts WHERE topic_name = #{:topic_name}")
     #   erb :topic_posts
