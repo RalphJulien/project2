@@ -1,0 +1,7 @@
+<h1>Posts</h1>
+<% @posts.each do |post| %>
+  <h2>Post: <%= post['text'] %></h2>
+  <h3>Topic: <%= post['topic_name'] %></h3>
+  <p>Shared by: <%= post['email'] %></p>
+
+<% end %>

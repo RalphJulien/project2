@@ -1,0 +1,22 @@
+<style>
+  table, tr, td {
+    border: 1px solid #444;
+    padding: 8px;
+  }
+</style>
+<table>
+  <tr>
+    <th>Email</th>
+    <th>Password</th>
+  </tr>
+  <% @users.each do |user| %>
+  <tr>
+    <td>
+      <%= user["email"] %>
+    </td>
+    <td>
+      <%= user["password"] %>
+    </td>
+  </tr>
+  <% end %>
+</table>

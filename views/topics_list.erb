@@ -1,0 +1,11 @@
+<body>
+
+
+<h1>Topics</h1>
+<% @topics.each do |topic| %>
+  <h2><a href="#">Topic: <%= topic['topic_name'] %></a></h2>
+  <h3>Started by: <%= topic['email'] %></h3>
+
+<% end %>
+
+</body>
