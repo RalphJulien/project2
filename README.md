@@ -1,0 +1,1 @@
+This is my work for the second project for the Web Development Immersive course at General Assembly. The goal of this project was to create a web forum where users could sign up and log in and post comments on various topics. In creating this forum, we implemented server-side technologies Ruby and SQL. 
